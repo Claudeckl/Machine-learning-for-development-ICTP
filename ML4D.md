@@ -38,26 +38,46 @@ Our workshop will introduce you to the basics of Machine
 Learning (ML), through working with Mathematica (R) on the
 Raspberry Pi computer.
 
+By finishing the workshop, you will:
+- understand basic the concepts and usage of Machine Learning
+- become familiar with using Raspberry Pi as a computing platform
+- become familiar with the basic usage of Mathematica on Raspberry Pi,
+particularly in the context of Machine Learning algorithms
+- experience running Machine Learning on sample data sets
+- become ready to continue studying Machine Learning to attack
+  real-world problems in your country
+
 Resources
 ---------
 
 ###Hardware
 
-Raspberry Pi 3 Type B
-LCD display (HDMI)
-USB keyboard
-USB mouse
-8Gbyte microSD card
-micro USB cable (power)
-AC USB adapter
+-  Raspberry Pi 3 Type B
+-  LCD display (HDMI)
+-  USB keyboard
+-  USB mouse
+-  8Gbyte microSD card
+-  micro USB cable (power)
+-  AC USB adapter
 
 ###Software
 
-Raspbian NOOBS on SD card
-Mathematica (included in Raspbian)
+-  Raspbian NOOBS on SD card
+-  Mathematica (included in Raspbian)
 
+###References
 
+-  [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning)
+-  [Raspberry Pi](https://www.raspberrypi.org)
+-  [Mathematica on Raspberry Pi](http://www.wolfram.com/raspberry-pi/)
+-  [Machine Learning on Mathematica 10](https://www.wolfram.com/mathematica/new-in-10/highly-automated-machine-learning/)
+-  [Mathematica tutorial](http://www.wolfram.com/broadcast/screencasts/handsonstart/)
 
+###Further reading
+
+-  [Big Data for Development](https://bdataanalytics.biomedcentral.com/articles/10.1186/s41044-016-0002-4)
+-  [Machine Learning for crop prediction](http://www.theverge.com/2016/8/4/12369494/descartes-artificial-intelligence-crop-predictions-usda)
+-  [A visual introduction to ML](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 
 
 
