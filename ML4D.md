@@ -41,7 +41,7 @@ Raspberry Pi computer.
 Resources
 ---------
 
-#Hardware
+###Hardware
 
 Raspberry Pi 3 Type B
 LCD display (HDMI)
@@ -51,7 +51,7 @@ USB mouse
 micro USB cable (power)
 AC USB adapter
 
-#Software
+###Software
 
 Raspbian NOOBS on SD card
 Mathematica (included in Raspbian)
