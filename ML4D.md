@@ -38,6 +38,21 @@ Our workshop will introduce you to the basics of Machine
 Learning (ML), through working with Mathematica (R) on the
 Raspberry Pi computer.
 
+We will use Mathematica, since it will let you do real
+work in a few lines of code: it takes care of the messy
+details of finding good "features" in the data, choosing
+a good learning algorithm, executing it until the training
+is finished, and letting you visualize the results again
+in just a few lines.
+
+We use Raspberry Pi since Wolfram Research, the creators of
+Mathematica, are making it available freely ("free as in
+beer") on this platform. But we have to note that Mathematica
+on other platforms, like PC Linux, Mac, Windows, is not
+free. If you want to work with Mathematica on your favorite
+platform, you will need to purchase a licence, which might
+be quite expensive.
+
 By finishing the workshop, you will:
 - understand basic the concepts and usage of Machine Learning
 - become familiar with using Raspberry Pi as a computing platform
@@ -78,6 +93,48 @@ Resources
 -  [Big Data for Development](https://bdataanalytics.biomedcentral.com/articles/10.1186/s41044-016-0002-4)
 -  [Machine Learning for crop prediction](http://www.theverge.com/2016/8/4/12369494/descartes-artificial-intelligence-crop-predictions-usda)
 -  [A visual introduction to ML](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+-  [Machine Learning on Coursera](https://www.coursera.org/specializations/machine-learning?utm_source=gg&utm_medium=sem&utm_campaign=machine_learning_search_intl&campaignid=426787857&device=c&keyword=tutorial%20machine%20learning&matchtype=b&network=g&devicemodel=&adpostion=1t2&hide_mobile_promo&gclid=Cj0KEQjw88q9BRDB5qLcwLXr7_sBEiQAZsGjayulL9v-koWnqKYm_cFt10Rr57kEPPWXCL5L0r63qREaAtJ58P8HAQ)
 
 
+Using Raspberry Pi
+------------------
+
+###First steps
+
+Let us prepare the system SD card, by copying the contents
+of the "NOOBS" (New Out Of Box System) to a formatted blank
+SD. Get the system distribution from [NOOBS][], then extract
+the contents into a new directory. This contents will be
+copied on the SD.
+
+####On Linux:
+Assuming that you have downloaded NOOBS_v1_9_2.zip into your
+Downloads folder, and your SD is mounted as /media/NOOBS:
+
+	cd
+	unzip Downloads/NOOBS_v1_9_2.zip
+	cd NOOBS_v1_9_2
+	cp -a * /media/NOOBS/
+
+####On Mac:
+Assuming that you have downloaded NOOBS_v1_9_2.zip into your
+Downloads folder, and your SD is mounted as /Volumes/NOOBS,
+open a terminal and do the following:
+
+	cd
+	unzip Downloads/NOOBS_v1_9_2.zip
+	cd NOOBS_v1_9_2
+	cp -a * /Volumes/NOOBS/
+
+####On Windows:
+Assuming that you have downloaded NOOBS_v1_9_2.zip into your
+Downloads folder, and your SD is drive D:, extract the contents
+of the ZIP file into D:
+
+Then unmount the SD, it is ready for booting. 
+
+
+
+:[NOOBS](https://www.raspberrypi.org/downloads/noobs/)
+:[NOOBS ZIP](https://downloads.raspberrypi.org/NOOBS_latest)
 
