@@ -60,7 +60,38 @@ By finishing the workshop, you will:
 particularly in the context of Machine Learning algorithms
 - experience running Machine Learning on sample data sets
 - become ready to continue studying Machine Learning to attack
-  real-world problems in your country
+real-world problems in your country
+
+A quick taste of Machine Learning
+---------------------------------
+
+How could a computer tell if a photo is a sunflower or a dandelion?
+
+Perhaps we could write a program from our definition of a sunflower:
+- A sunflower is a flower,
+- it is big,
+- has many yellow petals,
+- has large brown sepals in the center,
+- ...
+
+- A dandelion is another flower,
+- it is smallish,
+- also has yellow petals,
+- but later turns white,
+- ...
+But now we have new tasks: we need to recognize when we have a flower,
+where are the petals, how many, and so on. Sounds rather tough...
+
+How about just giving the computer examples:
+- This is a sunflower.
+- Here is another one.
+- This one is a dandelion.
+- And this one.
+- Another sunflower.
+Then have the computer figure out how to make one from the other.
+
+This is Machine Learning, we will see how this example works in the
+second lesson.
 
 Resources
 ---------
